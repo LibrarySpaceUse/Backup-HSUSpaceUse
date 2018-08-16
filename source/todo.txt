@@ -1,0 +1,19 @@
+//TODO's!
+
+index.php
+=========
+TODO: Remove current sign on and replace with calls to DB
+FUTURE FEATURE
+
+
+editor.php
+==========
+TODO: add editor from alpha directory to editor
+
+//add a time-out for submitting
+//be able to reorient the map
+
+Cheryl's notes on a survey:
+//add laptop activity
+//add teaching activity for rooms
+//indicate what furniture has been unlocked

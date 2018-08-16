@@ -1,0 +1,417 @@
+/* positioning elements */
+body{
+	margin: 0;
+}
+
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 196px;
+	z-index: 99;
+	transition: top .35s;
+	transition-timing-function: ease-out;
+}
+
+.logo{
+	display: block;
+	width: 50%;
+	margin: auto;
+	margin-top: 1em;
+}
+
+header > h1{
+	text-align: center;
+	width: 100%;
+}
+
+.user-sugg{
+	display: block;
+	margin: auto;
+	margin-top: 2.2em;
+	margin-bottom: 2.2em;
+	text-align: center;
+	font-size: 2em;
+}
+
+h2
+{
+		text-align: center;
+}
+
+p{
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+.invalid-login{
+	margin: 1em;
+	font-size: 2em;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+
+.log-state{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: .75em;
+	padding-left: .5em;
+}
+
+.submit_survey{
+	position: absolute;
+	top: 24px;
+	right: 88px;
+	height: 40px;
+	width: 100px;
+	z-index: 100;
+}
+
+.hide_nav{
+	position: absolute;
+	top: 24px;
+	right: 24px;
+	width: 40px;
+	height: 41px;
+	z-index: 100;
+}
+
+#hide_nav_plus{
+	position: absolute;
+	top: -1px;
+	right: 10px;
+}
+
+#sub_layout{
+	height: 25px;
+	margin-left: .25em;
+	display: inline;
+}
+
+
+.nav_open{
+	top: 220px;
+}
+
+nav{
+	z-index: 99;
+	position: absolute;
+	top: 140px;
+	right: 0;
+	left: 0;
+	transition: top .25s;
+	transition-timing-function: ease-out;
+}
+
+nav > p{
+	display: inline-block;
+	margin: 0;
+	padding: 1em;
+
+}
+
+.hidden{
+	top: -300px;
+}
+
+main{
+	position: absolute;
+	top: 196px;
+	left: 0;
+	right: 0;
+	bottom: 67px;
+	transition: top .25s;
+	transition-timing-function: ease-in-out;
+}
+
+.login_main{
+	bottom: 0;
+}
+
+.to-top{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+fieldset{
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	padding-top: 10px;
+}
+
+.login > fieldset{
+    width: 25%;
+    margin: auto;
+    margin-top: 140px;
+}
+
+legend{
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+input{
+	display: block;
+	height: 20px;
+}
+
+input[type=text]{
+	margin-bottom: 1em;
+	margin-top: .25em;
+}
+
+select{
+	height: 25px;
+}
+
+.load-submit{
+	display: inline;
+}
+
+#mapid{
+	display: block;
+	width: 100%;
+	height: 97%;
+	z-index: 0;
+}
+
+footer{
+	z-index: 109;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 5%;
+	transition: top .5s;
+}
+
+.insert{
+	margin-left: 1em;
+	text-decoration: bold;
+	padding: .25em;
+}
+
+.footd{
+	position: fixed;
+	width: 100%;
+	height: 5%;
+	transition: width .25s;
+}
+
+.foot_hide{
+	width: 0;
+	overflow: hidden;
+}
+
+footer > p{
+	margin-top: 9px;
+	text-align: center;
+
+}
+
+#load-image{
+	width: 100px;
+	height: 100px;
+}
+
+.loading{
+	display: none;
+}
+
+.loadingapply{
+	display: block;
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	z-index: 2000;
+	top: 47.5%;
+	left: 47.5%;
+	background-color: black;
+	border-radius: 25%;
+}
+
+.imagerotate{
+	-webkit-animation: rotating .75s linear infinite;
+	-moz-animation: rotating .75s linear infinite;
+	-ms-animation: rotating .75s linear infinite;
+	-o-animation: rotating .75s linear infinite;
+	animation: rotating .75s linear infinite;
+}
+
+.nav_button{
+	display: inline;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	margin: 4px;
+}
+
+.floor_creator_button{
+	display: inline;
+	width: 110px;
+	height: 100px;
+	text-align: center;
+	margin: 4px;
+}
+
+#nav_form{
+	text-align: center;
+}
+
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+
+#query_header
+{
+	display: inline;
+}
+
+#query_submit_button
+{
+	margin-left: 1em;
+	height: 40px;
+	display: inline;
+}
+
+#survey-id-select
+{
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#query_header_container
+{
+	display: inline;
+	margin-right: 20px;
+}
+
+#query_print_button{
+	position: sticky;
+	left: 100%;
+}
+
+.report_legend {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.report_legend h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+.p-inline{
+	display: inline-block;
+	padding-right: 5px;
+}
+
+#submit-surveys{
+	height: 4em;
+	width: 200px;
+	display: block;
+	margin: auto;
+	margin-top: 2em;
+	border-radius: 25px;
+}
+
+#threshold{
+	width: 60px;
+	height: 16px;
+}
+
+#multi-select{
+	width: 80%;
+	display: block;
+	margin: auto;
+	margin-top: 2em;
+}
+
+.furn_editor_select{
+	display: block;
+	position:  absolute;
+	padding-right: 20px;
+	padding-top: 11px;
+}
+
+#editor_buttons{
+	display:  inline;	
+	position:  absolute;
+	right: 10%;
+	top: 1.8%;
+}
+
+#getAreas{
+	height: 25px;
+	width: 100px;
+}
+
+#insertLayout{
+	display: block;
+	text-align:  center;
+	width: 100px;	
+	height: 25px;
+	margin-top: 7px;
+}
+
+#submit_floor{
+	height: 25px;
+	width: 65px;
+	margin-left: 10px;
+}
+
+.floor-uploader{
+	background: gainsboro;
+	padding: 20px 30px 30px;
+	border-radius: 5%;
+	border-style: outset;
+	margin: 0 auto;
+	width: 250px;
+}
+
+.upload{
+	padding-top:  10px;
+}
+
+#upload_submit{
+	border-radius: 5%;
+	border: 1px solid #25551b;
+	background-color: #efe988;
+	color: #25551b;
+	font-size: 12px;
+	cursor: pointer;
+	font-weight: bolder;
+	font-family: 'Lato', sans-serif;
+	width: 100px;
+	height: 40px;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right:  auto;
+}
