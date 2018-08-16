@@ -1,4 +1,4 @@
-# library_app
+# SPaceUse
 This repository contains the project files for the HSU Library seating application
 
 ## Contents
